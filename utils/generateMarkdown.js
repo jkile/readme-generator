@@ -1,7 +1,17 @@
 function generateMarkdown(data) {
   return `
-# ${data.title}
-
+# ${data.repo}
+  ${data.description}
+## License
+  ${data.license}
+## Dependencies
+  ${data.dependencies}
+## Tests
+  ${data.test}
+## Usage
+  ${data.usage}
+## Contributing
+  ${data.contribution}
 `;
 }
 
