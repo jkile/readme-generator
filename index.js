@@ -1,6 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const API = require("./utils/api");
+const generateMarkdown = ("./utils/generateMarkdown");
 
 const questions = [
     {
@@ -42,14 +43,14 @@ const questions = [
 
 ];
 
-function writeToFile(fileName, data) {
-
+async function writeToFile(fileName, data) {
+    await fs.appendFile("README.md",generateMarkdown(data));
 }
 
 async function init() {
-    const data = await inquirer.prompt(questions);
-    //const {data} = await API.getUser(username);
-    //console.log(data.items[0]);
+    const userInput = await inquirer.prompt(questions);
+    const {data} = await API.getUser(userInput.username);
+    console.log(data.items[0]);
     console.log(data);
 
 }
