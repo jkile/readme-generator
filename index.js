@@ -48,8 +48,8 @@ const questions = [
 
 ];
 
-async function writeToFile(fileName, data) {
-    await fs.appendFile(fileName, generateMarkdown(data), function(err){
+async function writeToFile(fileName, data, email, image) {
+    await fs.appendFile(fileName, generateMarkdown(data, email, image), function(err){
 
     });
 }
@@ -58,8 +58,10 @@ async function init() {
     const userInput = await inquirer.prompt(questions);
     const {data} = await API.getUser(userInput.username);
     //console.log(data.items[0]);
-    console.log(data);
-    writeToFile("READMEPLZ.md", userInput);
+    //console.log(data);
+    let email = data.email || "No email present"
+    let image = data.avatar_url;
+    writeToFile("READMETESTOUTPUT.md", userInput, email, image);
 }
 
 init();
