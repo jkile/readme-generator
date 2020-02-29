@@ -1,7 +1,7 @@
 
- ![User Avatar] (https://avatars2.githubusercontent.com/u/43631549?v=4)
-# jasdc
-  asdfasfg
+(https://avatars2.githubusercontent.com/u/43631549?v=4)
+# test project
+  project description
 ## Table of Contents
 -[License](##License)
 -[Dependencies](##Dependencies)
@@ -10,14 +10,14 @@
 -[Contributing](##Contributing)
 
 ## License
-  [![APACHE 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 ## Dependencies
-  sd
+  npm install
 ## Tests
-  asd
+  no testing included
 ## Usage
-  
+  use as you please
 ## Contributing
-  
+  ask nicely
 ## Questions
   Please direct questions to No email present

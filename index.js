@@ -61,7 +61,7 @@ async function init() {
     //console.log(data);
     let email = data.email || "No email present"
     let image = data.avatar_url;
-    writeToFile("READMETESTOUTPUT.md", userInput, email, image);
+    writeToFile("READMETEST.md", userInput, email, image);
 }
 
 init();
