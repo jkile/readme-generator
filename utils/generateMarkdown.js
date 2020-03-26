@@ -19,27 +19,28 @@ function generateMarkdown(data, email, image) {
       break;
   }
   return `
-${"(" + image + ")"}
+![Avatar](${image} "User Avatar")
 # ${data.repo}
+# Description
   ${data.description}
-## Table of Contents
--[License](##License)
--[Dependencies](##Dependencies)
--[Testing](##Testing)
--[Usage](##Usage)
--[Contributing](##Contributing)
+# Table of Contents
+*[License](#License)
+*[Dependencies](#Dependencies)
+*[Testing](#Testing)
+*[Usage](#Usage)
+*[Contributing](#Contributing)
 
-## License
+# License
   ${licenseType}
-## Dependencies
+# Dependencies
   ${data.dependency}
-## Tests
+# Tests
   ${data.test}
-## Usage
+# Usage
   ${data.usage}
-## Contributing
+# Contributing
   ${data.contribution}
-## Questions
+# Questions
   Please direct questions to ${email}
 `;
 }
