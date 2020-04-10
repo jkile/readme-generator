@@ -1,8 +1,8 @@
 
-![Avatar](https://avatars2.githubusercontent.com/u/43631549?v=4 "User Avatar")
-# Test Project
+![Avatar](https://avatars2.githubusercontent.com/u/43631549?v=4)
+# Project Name
 # Description
-  This is a test
+  description
 # Table of Contents
 *[License](#License)
 *[Dependencies](#Dependencies)
@@ -15,10 +15,10 @@
 # Dependencies
   No dependencies
 # Tests
-  No tests
+  no tests
 # Usage
-  Use as you please
+  use as you please
 # Contributing
-  Just give credit I suppose
+  ask nicely
 # Questions
   Please direct questions to No email present

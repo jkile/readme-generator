@@ -19,7 +19,7 @@ function generateMarkdown(data, email, image) {
       break;
   }
   return `
-![Avatar](${image} "User Avatar")
+![Avatar](${image})
 # ${data.repo}
 # Description
   ${data.description}
