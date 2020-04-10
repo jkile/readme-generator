@@ -1,24 +1,24 @@
 
 ![Avatar](https://avatars2.githubusercontent.com/u/43631549?v=4)
-# Project Name
-# Description
-  description
+# Readme Generator
+## Description
+  This project creates a readme file based on the input.
 # Table of Contents
-*[License](#License)
-*[Dependencies](#Dependencies)
-*[Testing](#Testing)
-*[Usage](#Usage)
-*[Contributing](#Contributing)
+1. [License](#License)
+2. [Dependencies](#Dependencies)
+3. [Testing](#Testing)
+4. [Usage](#Usage)
+5. [Contributing](#Contributing)
 
 # License
-  [![APACHE 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 # Dependencies
-  No dependencies
+  npm install
 # Tests
-  no tests
+  No tests
 # Usage
-  use as you please
+  Run "node index.js" to start CLI
 # Contributing
-  ask nicely
+  No contributions
 # Questions
   Please direct questions to No email present

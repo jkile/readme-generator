@@ -21,14 +21,14 @@ function generateMarkdown(data, email, image) {
   return `
 ![Avatar](${image})
 # ${data.repo}
-# Description
+## Description
   ${data.description}
 # Table of Contents
-*[License](#License)
-*[Dependencies](#Dependencies)
-*[Testing](#Testing)
-*[Usage](#Usage)
-*[Contributing](#Contributing)
+1. [License](#License)
+2. [Dependencies](#Dependencies)
+3. [Testing](#Testing)
+4. [Usage](#Usage)
+5. [Contributing](#Contributing)
 
 # License
   ${licenseType}
